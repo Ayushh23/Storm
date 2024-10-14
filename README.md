@@ -15,8 +15,13 @@ Location-Based Services: By asking for location permissions, the app ensures tha
 Minimalist UI Design: The app is designed with simplicity in mind, allowing users to focus on the weather data without distractions. The intuitive layout and clear navigation ensure a user-friendly experience.
 
 🛠️ Technology Stack
+
 Android Studio: The app is developed in Java/Kotlin (depending on what you used) using Android Studio as the development environment.
+
 OpenWeather API: Integrated for real-time weather updates.
+
 Retrofit: Used for API encryption and secure communication between the app and the weather API.
+
 Lottie Animation: Adds dynamic and smooth animations for different weather conditions, enhancing the user interface.
+
 Fused Location API: Retrieves the user’s current location to deliver localized weather updates.
