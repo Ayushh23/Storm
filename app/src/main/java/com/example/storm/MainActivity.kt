@@ -119,6 +119,10 @@ class MainActivity : AppCompatActivity() {
 changeweatherbackground(condition)
 
                 }
+                else {
+                Toast.makeText(this@MainActivity, "City not found", Toast.LENGTH_SHORT).show()
+            }
+
 
 
             }
