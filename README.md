@@ -1,4 +1,5 @@
 Weather App 🌤️
+
 Welcome to the Weather App, a beautifully designed Android application that provides real-time weather information for your current location. Built with Android Studio, this app integrates a variety of tools to offer users a seamless experience with accurate weather data and engaging visuals.
 
 🌟 Features
