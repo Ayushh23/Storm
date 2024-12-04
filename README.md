@@ -28,3 +28,4 @@ Lottie Animation: Adds dynamic and smooth animations for different weather condi
 Fused Location API: Retrieves the user’s current location to deliver localized weather updates.
 
 ![image](screenshot/storm1.jpg)
+<img src="screenshot/storm1.jpg" width="100px" height="200px">
