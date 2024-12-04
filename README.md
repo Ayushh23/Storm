@@ -26,3 +26,5 @@ Retrofit: Used for API encryption and secure communication between the app and t
 Lottie Animation: Adds dynamic and smooth animations for different weather conditions, enhancing the user interface.
 
 Fused Location API: Retrieves the user’s current location to deliver localized weather updates.
+
+![Image](https://drive.google.com/drive/u/0/my-drive)
