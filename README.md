@@ -1,31 +1,61 @@
-Weather App 🌤️
+# Storm 🌤️
+[![Ask DeepWiki](https://devin.ai/assets/askdeepwiki.png)](https://deepwiki.com/Ayushh23/Storm)
 
-Welcome to the Weather App, a beautifully designed Android application that provides real-time weather information for your current location. Built with Android Studio, this app integrates a variety of tools to offer users a seamless experience with accurate weather data and engaging visuals.
+Storm is a sleek and modern Android weather application built with Kotlin. It provides real-time weather data, beautiful animations, and an intuitive user interface to keep you informed about the weather conditions anywhere in the world.
 
-🌟 Features
-Real-Time Weather Updates: The app automatically detects your location and provides up-to-the-minute weather details for your area. Whether it's sunny, rainy, or cloudy, the app keeps you informed about the weather conditions in your vicinity.
+## 🌟 Features
 
-Accurate Data with OpenWeather API: Weather data is fetched from the highly reliable OpenWeather API, ensuring you always get precise weather information, including temperature, humidity, wind speed, and more.
+- **Real-Time Weather Data:** Get up-to-the-minute weather details for any city or for your current location.
+- **Dynamic UI:** The application's background and animations change dynamically to reflect the current weather conditions (e.g., sunny, cloudy, rainy, or snowy).
+- **Comprehensive Details:** Displays essential information including temperature, humidity, wind speed, sunrise/sunset times, atmospheric pressure, and max/min temperatures.
+- **Location-Based Forecasts:** Utilizes the Fused Location API to automatically fetch and display weather for the user's current location upon granting permission.
+- **City Search Functionality:** A clean and simple search bar allows users to look up weather information for any city worldwide.
 
-Retrofit for Secure API Communication: Data communication is handled securely using Retrofit, ensuring that the app exchanges information with the API in an encrypted format, safeguarding your data and enhancing performance.
+## 📸 Screenshots
+<p align="center">
+  <img src="screenshot/storm1.jpg" width="300px" style="display: inline-block; margin-right:10px;" />
+<img src="screenshot/storm2.jpg" width="300px" style="display: inline-block; margin-right:10px;" />
+<img src="screenshot/storm3.jpg" width="300px" style="display: inline-block;" />
 
-Lottie Animations for Visual Appeal: Weather conditions are not just displayed in numbers—thanks to Lottie animations, the app provides visually stunning animations that represent various weather conditions (sunny, rainy, stormy, etc.) making the user experience more interactive and enjoyable.
+</p>
 
-Location-Based Services: By asking for location permissions, the app ensures that the weather data is tailored specifically to where you are, giving you relevant and up-to-date information.
+## 🛠️ Tech Stack & Dependencies
 
-Minimalist UI Design: The app is designed with simplicity in mind, allowing users to focus on the weather data without distractions. The intuitive layout and clear navigation ensure a user-friendly experience.
+- **Kotlin:** The primary programming language for building the app.
+- **Android SDK:** For native Android development.
+- **OpenWeatherMap API:** Used as the source for all weather data.
+- **Retrofit:** A type-safe HTTP client for Android to handle API requests.
+- **Gson:** For parsing JSON data returned by the OpenWeatherMap API.
+- **Lottie:** Renders beautiful, high-quality vector animations for different weather conditions.
+- **Fused Location Provider API:** For efficiently retrieving the device's location.
+- **ViewBinding:** To access views in the layout files with null safety.
 
-🛠️ Technology Stack
+## 🚀 Getting Started
 
-Android Studio: The app is developed in Java/Kotlin (depending on what you used) using Android Studio as the development environment.
+To get a local copy up and running, follow these simple steps.
 
-OpenWeather API: Integrated for real-time weather updates.
+### Prerequisites
 
-Retrofit: Used for API encryption and secure communication between the app and the weather API.
+- Android Studio
+- An API key from [OpenWeatherMap](https://openweathermap.org/api)
 
-Lottie Animation: Adds dynamic and smooth animations for different weather conditions, enhancing the user interface.
+### Installation
 
-Fused Location API: Retrieves the user’s current location to deliver localized weather updates.
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/ayushh23/storm.git
+   ```
+2. **Open the project in Android Studio.**
+
+3. **Add your OpenWeatherMap API Key:**
+   - Navigate to `app/src/main/java/com/example/storm/MainActivity.kt`.
+   - Locate the `fetchweatherdata` function.
+   - Replace the placeholder API key in the following line with your own key:
+     ```kotlin
+     val response = retrofit.getWeatherData(cityName, "YOUR_API_KEY", "metric")
+     ```
+
+4. **Build and run the application on an Android device or emulator.**
 
 
 <img src="screenshot/storm1.jpg" width="300px" style="display: inline-block; margin-right:10px;" />
