@@ -1,5 +1,4 @@
 # Storm 🌤️
-[![Ask DeepWiki](https://devin.ai/assets/askdeepwiki.png)](https://deepwiki.com/Ayushh23/Storm)
 
 Storm is a sleek and modern Android weather application built with Kotlin. It provides real-time weather data, beautiful animations, and an intuitive user interface to keep you informed about the weather conditions anywhere in the world.
 
