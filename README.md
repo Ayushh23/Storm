@@ -57,6 +57,3 @@ To get a local copy up and running, follow these simple steps.
 4. **Build and run the application on an Android device or emulator.**
 
 
-<img src="screenshot/storm1.jpg" width="300px" style="display: inline-block; margin-right:10px;" />
-<img src="screenshot/storm2.jpg" width="300px" style="display: inline-block; margin-right:10px;" />
-<img src="screenshot/storm3.jpg" width="300px" style="display: inline-block;" />
